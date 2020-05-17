@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const jsonParser = bodyParser.json();
 const schema = require('../store/schema');
 
-// healthcheck
+// healthcheckk
 router.get('/health', (req, res) => {
   res.status('200').send("Status: ok!");
 });
